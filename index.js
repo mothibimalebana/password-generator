@@ -5,3 +5,21 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K",
                     "8", "9","~","`","!","@","#","$","%","^","&","*","(",")","_","-","+","=",
                     "{","[","}","]",",","|",":",";","<",">",".","?","/"
                     ];
+
+console.log(characters.length)
+const pass1 = document.getElementById("pass-1");
+const pass2 = document.getElementById("pass-2");
+
+function generatePassword(){
+    let password = ""
+    for (let i = 0; i < 15; i++){
+        const randomNumber = Math.floor(Math.random() * 91)
+        password += characters[randomNumber]
+    }
+    return password
+}
+
+function buttonClick () {
+    pass1.textContent = generatePassword()
+    pass2.textContent = generatePassword()
+}
