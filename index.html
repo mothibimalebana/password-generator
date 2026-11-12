@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>PSW-G</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container-left">
+            <h1>Password Generator</h1>
+            <div class="output">1a4Txe3m*%Qm^vdXs!</div>
+            <button>Copy Password</button>
+            <div class="slidecontainer">
+              <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+            </div>
+            <div class="checkboxes">
+                <div class="checkbox">
+                    <input type="checkbox" id="uppercase-check" name="uppercase" value="uppercase">
+                    <label for="uppercase">Uppercase</label><br>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="lowercase-check" name="lowercase" value="lowercase">
+                    <label for="lowercase"> Lowercase</label><br>
+                </div>
+                                <div class="checkbox">
+                    <input type="checkbox" id="numbers-check" name="numbers" value="numbers">
+                    <label for="numbers">Numbers</label><br>
+                </div>
+                                <div class="checkbox">
+                    <input type="checkbox" id="symbol-check" name="symbols" value="symbols">
+                    <label for="symbols">Symbols</label><br>
+                </div>
+                <div class="footer">
+                    <p class="audio">Enable aduio</p>
+                    <p class="shortcuts">Keyboard Shortcuts</p>
+                    <p class="source-code">Source Code</p>
+                    <p class="author">Author</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-right">
+            <h2 class="password-history">
+                <p class="clear-history">Clear history</p>
+            </h2>
+        </div>
+    </div>
+</body>
+</html>
