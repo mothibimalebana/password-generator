@@ -1,7 +1,35 @@
+@font-face {
+    font-family: 'Tomorrow';
+    src: url('Tomorrow-Regular.woff2') format('woff2'),
+        url('Tomorrow-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tomorrow';
+    src: url('Tomorrow-Bold.woff2') format('woff2'),
+        url('Tomorrow-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tomorrow';
+    src: url('Tomorrow-Thin.woff2') format('woff2'),
+        url('Tomorrow-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
 :root {
     background-color: Black;
     color: #FAFAFA;
 }
 .container {
     display: flex;
+
 }
